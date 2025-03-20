@@ -11,8 +11,8 @@ const PageAboutMe = () => {
             <ContainerPage>
                  <Avatar/>
                <h1 className="text-2xl loading-tight 
-               text-center md:text-left md:text-5xl md:mt-10 ">Toda mi{' '}
-              <span className="font-bold text-secondary">Trayectoria profesional</span>
+               text-center md:text-left md:text-5xl md:mt-10  ">Toda mi{' '}
+              <span className="font-bold text-secondary">Experiencia profesional</span>
                </h1>
                <CounterServices/>
                <TimeLine/>

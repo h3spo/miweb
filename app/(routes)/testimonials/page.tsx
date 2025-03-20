@@ -16,10 +16,10 @@ const TestimonialsPage = () => {
         <>
             <TransitionPage />
             <div className='flex flex-col justify-center h-lvh'>
-                <CircleImage />
+               
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-                    Algunos comentarios
-                    <span className="block font-bold text-secondary"> de nuestros clientes</span>
+                Proyectos y actividades 
+                    <span className="block font-bold text-secondary">  más recientes </span>
                 </h1>
                 <div className="flex items-center justify-center">
                     <div>
@@ -39,7 +39,7 @@ const TestimonialsPage = () => {
                         >
                             {dataTestimonials.map(({ id, name, description, imageUrl }) => (
                                 <SwiperSlide key={id}>
-                                    <Image src={imageUrl} alt={name} width="100" height="100" className="mx-auto rounded-full" />
+                                    <Image src={imageUrl} alt={name} width="350" height="250" className="mx-auto " />
                                     <h4 className='text-center'>{name}</h4>
                                     <div className="mt-5 text-center">
                                         {description}
